@@ -1,0 +1,67 @@
+# 공용 설정 파일
+spring:
+  application:
+    name: road-damage-detection-server
+  profiles:
+    active: local
+
+jwt:
+  key: ENC(UUldhLDJoF4g6SMDCxk9UzyDSYvI/MVe/IjwfA1k3zveFChqT70QOlbsSJ7eLhlBZkQaVP3NzDriBFfE1WfdlsqjpMGv/O24Z0xDrTKvVa8y0kZ18o0IsHEqIUCJTU9T+Oy85+G+eDs2NX8urb1gJEjV3+lw7LggqUDWrZY12HY=)
+
+cloud:
+  aws:
+    region: ap-northeast-2
+    credentials:
+      access-key: ENC(cTIsK6d9yhNqtcNEoD3yl7J3RYOY9zbpWt8qh4Pg6Vo=)
+      secret-key: ENC(SDpWXhfXSEs5fwvF/hyVKS5cuSiuJe4sMXO8joUpj1V9Z2+xC8RRolwLJu8p3GWk7fIUg/O7Wws=)
+  s3:
+    bucket: rootcode-s3bucket
+  stack:
+    auto: false
+
+# 카카오 지도 API 키
+kakao:
+  api:
+    key: ENC(x10P1xTEMByMEBaNcYvL53NRiYXXPfQaVk569rIzEYJH1egW5tKuVuTKvCjOGCin)
+
+---
+
+# 개발 환경 설정 파일
+spring:
+  config:
+    activate:
+      on-profile: local
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    driver-class-name: org.h2.Driver
+
+---
+
+# 운영 환경 설정 파일
+spring:
+  config:
+    activate:
+      on-profile: real
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show-sql: true
+        default_schema: rootcode
+  datasource:
+    url: ENC(cIWsrr3pP9xzLYeZZY2Fyra8K+F0Ezb7ecU3kXydt7NmZ8YN19iepgQ12s0EQs8a1FxwWArCUNh/7cJNXh17v0Jra41x5WGKB+5ibvoolz8n9I9e5xMfTzd8tTOYn6eUr78LmxdeMQ3WQAbaQjBPmzD8GvLo5bzaRBGQfZHA7hHMoZMj+tsWfQ==)
+    username: ENC(V+rH+YSztOBxaDZYgfkeA45aPnRmOVFJMl6jh1iK+aIZLAs7LJlgTmTrTURzEQe9)
+    password: ENC(8fsY8eLOIKFPvJ9vxxSZx413/I/WxXfEFVNI6/3OQObmb6akN4E9OA==)
+    driver-class-name: org.postgresql.Driver
