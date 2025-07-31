@@ -91,7 +91,7 @@
 이 외에도, 백엔드 서버는 엣지 디바이스 및 2차 검증 서버를 위한 API도 제공합니다. 지오해시 알고리즘을 도입하여 포트홀 데이터에 지오해시 칼럼을 추가하고, 엣지 디바이스에서 동일한 포트홀이 중복 탐지되는 문제를 해결했습니다. 또한, Presigned URL 방식을 통해 S3 이미지 업로드 및 접근을 편리하게 처리할 수 있도록 구현했습니다. <br/><br/>
 
 ## 5. 역할
-| <div align="center"><a href="https://github.com/tristanjung1006">👑 허찬영</a></div> | <div align="center"><a href="https://github.com/calla1102">문영채</a></div> | <div align="center"><a href="https://github.com/dongwonyang">이영민</a></div> | <div align="center"><a href="https://github.com/kimyuchan-k1">최현목</a></div> |
+| <div align="center"><a href="https://github.com/nicehcy2">👑 허찬영</a></div> | <div align="center"><a href="https://github.com/Octoping925">문영채</a></div> | <div align="center"><a href="https://github.com/lym0217">이영민</a></div> | <div align="center"><a href="https://github.com/hyunnnchoi">최현목</a></div> |
 | :---------------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
 | [<img src="https://github.com/nicehcy2.png" width="250" height="250">](https://github.com/nicehcy2) | [<img src="https://github.com/Octoping925.png" width="250" height="250">](https://github.com/Octoping925) | [<img src="https://github.com/lym0217.png" width="250" height="250">](https://github.com/lym0217) | [<img src="https://github.com/hyunnnchoi.png" width="250" height="250">](https://github.com/hyunnnchoi) |
 |     `백엔드`<br/>`기계학습`<br/>`클라우드`<br/>         |         `백엔드`<br/>`프론트엔드`<br/>         |         `프론트엔드`<br/>`클라우드`<br/>         |         `기계학습`<br/>`클라우드`<br/>        |
