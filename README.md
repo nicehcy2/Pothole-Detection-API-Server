@@ -97,6 +97,6 @@
 |     `백엔드`<br/>`기계학습`<br/>`클라우드`<br/>         |         `백엔드`<br/>`프론트엔드`<br/>         |         `프론트엔드`<br/>`클라우드`<br/>         |         `기계학습`<br/>`클라우드`<br/>        |
 
 ## 6. 🔗 Quick Jump
-- [프론트엔드 Repository](https://github.com/OpenRoot-KW/Pothole-Detection-Monitoring-Page)
-- [엣지 디바이스 Repository](https://github.com/nicehcy2/YOLOv5-Pothole-Detection-Edge-Device)
-- [2차 AI 서버 Repository](https://github.com/nicehcy2/YOLOv8-Pothole-Detection-Server)
+- [[프론트엔드 Repository]](https://github.com/OpenRoot-KW/Pothole-Detection-Monitoring-Page)
+- [[엣지 디바이스 Repository]](https://github.com/nicehcy2/YOLOv5-Pothole-Detection-Edge-Device)
+- [[2차 AI 서버 Repository]](https://github.com/nicehcy2/YOLOv8-Pothole-Detection-Server)
